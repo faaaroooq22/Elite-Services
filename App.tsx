@@ -1,16 +1,15 @@
-
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import PolicySection from './components/PolicySection';
-import ServicesGrid from './components/ServicesGrid';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
-import { ACADEMIC_SERVICES, BOOK_SERVICES } from './constants';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import PolicySection from './components/PolicySection.tsx';
+import ServicesGrid from './components/ServicesGrid.tsx';
+import ContactForm from './components/ContactForm.tsx';
+import Footer from './components/Footer.tsx';
+import { ACADEMIC_SERVICES, BOOK_SERVICES } from './constants.tsx';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-white">
       <Navbar />
       <main className="flex-grow">
         <Hero />

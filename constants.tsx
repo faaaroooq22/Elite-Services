@@ -1,11 +1,9 @@
-
-import React from 'react';
-import { ServiceCategory } from './types';
+import { ServiceCategory } from './types.ts';
 
 export const POLICIES = {
   academicIntegrity: "We do not provide services that are unlawful or unethical. For academic work, we offer polishing and enhancement to ensure your own content is flawless. Custom writing is provided for guidance only and is not intended for submission as-is.",
   contentNotice: "We do not accept content related to LGBT concepts, atheist schools of thought, adult material, hate speech, or unethical subjects.",
-  refundPolicy: "Refund policy details will be updated soon."
+  refundPolicy: "Our refund policy is designed to be fair. If work has not commenced, a full refund is available. Once editing has started, partial refunds may be issued based on progress."
 };
 
 export const ACADEMIC_SERVICES: ServiceCategory = {
